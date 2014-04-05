@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Temas a cubrir</title>
     <meta charset="utf-8">
+    <title>Temas a cubrir</title>
     <link rel="stylesheet" href="class02-style.css">
   </head>
   <body>
@@ -10,27 +10,38 @@
     <article>
       <h2>Temas del día</h2>
       <ol>
-        <li>HTML. ¿Por qué?</li>
+        <li>HTML. ¿Por qu&eacute;?</li>
         <li>¿Hay más alternativas?</li>
         <li>Editores de código. ¿Por qué son importantes?</li>
         <li>Validar código.</li>
         <li>Repaso de etiquetas de contenido:
           <ul>
+            <li>Bloques (header, article, section, aside, footer, div)</li>
             <li>Cabeceras (h1, h2, h3, etc.)</li>
-            <li>Párrafos (strong, em, code).</li>
-            <li>Imágenes (Modo simple y modo ideal)</li>
+            <li>Párrafos (strong, em, code, br).</li>
+            <li>Caractéres especiales (quot, nbsp, larr, rarr, acute, etc)</li>
+            <li>Links (target, href)</li>
+            <li>Estructura de folders, urls, index.html</li>
             <li>Citas (quote, blockquote, cite).</li>
-            <li>Imágenes.</li>
+            <li><a href="damntables.html">Tables</a> (Oh God)</li>
+            <li>Imágenes (figure, caption, src, alt, width + height, title, baseline)</li>
+            <li>Aún viven: iframes.</li>
+            <li>Listas. Ordenadas y desordenadas (Anidación).</li>
+            <li>Formularios (fieldset, label, input, button, submit, etc)</li>
           </ul>
         </li>
       </ol>
     </article>
 
+    <hr>
+
     <article>
-      <h2>Información sobre algunas etiquetas</h2>
+      <header>
+        <h2>Información sobre algunas etiquetas</h2>
+      </header>
 
       <section>
-        <h3>Sobre el <code>blockquote</code></h3>
+        <h3>Sobre la etiqueta <code>blockquote</code></h3>
         <p>El elemento <code>blockquote</code> representa contenido que ha sido citado de otra fuenta, opcionalmente con una cita que debe estar dentro de un elemento <code>footer</code> o <code>cite</code>.</p>
         <p>Este es un ejemplo de <code>blockquote</code>:</p>
 
@@ -45,6 +56,26 @@
 
       </section>
 
+      <section>
+        <h3>Sobre la etiqueta <code>cite</code></h3>
+        <p>El elemento <code>cite</code> representa una referencia a un trabajo creativo, y debe incluir el título del trabajo, el nombre del autor, o un link de referencia.</p>
+      </section>
+
+      <section>
+        <h3>Sobre la etiqueta <code>q</code></h3>
+        <p>El elemento <code>q</code> sirve para referencias breves en el mismo texto. Esto significa que el <code>q</code> puede ser usado para señalar sarcasmo u otros usos que no requieran comillas.</p>
+      </section>
+
+      <section>
+        <h3>Sobre las etiquetas <code>figure</code> y <code>figcaption</code></h3>
+        <p>Este es un ejemplo de ambas etiquetas:</p>
+
+        <figure>
+          <img src="imagen.jpg" alt="Texto descriptivo" width="300">
+          <figcaption>Algunos djembe listos para tocar.</figcaption>
+        </figure>
+
+      </section>
     </article>
 
   </body>
