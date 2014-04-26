@@ -1,0 +1,47 @@
+a {
+  background-color: #999;
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+i {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: transparent url("../images/ico-social.png") no-repeat left top;
+}
+
+.ico-facebook i {
+  background-position: 0 0;
+}
+
+.ico-twitter i {
+  background-position: -60px 0;
+}
+
+.ico-youtube i {
+  background-position: -120px 0;
+}
+
+.ico-facebook:hover i {
+  background-position: 0 -60px;
+}
+
+.ico-twitter:hover i {
+  background-position: -60px -60px;
+}
+
+.ico-youtube:hover i {
+  background-position: -120px -60px;
+}
+
+
+
+
+
+
+
+
+

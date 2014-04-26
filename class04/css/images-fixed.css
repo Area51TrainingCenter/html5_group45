@@ -1,0 +1,12 @@
+.block {
+  background-color: rgba(255,255,255,0.6);
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+body {
+  background: transparent url("../images/blurry.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
