@@ -1,0 +1,18 @@
+body {
+  width: 500px;
+}
+
+.outside {
+  background-color: #ff6600;
+  padding: 20px;
+  position: relative;
+}
+
+.inside {
+  background-color: yellow;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
