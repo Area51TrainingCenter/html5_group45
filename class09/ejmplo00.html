@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo 00 de JS</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="wrapper">
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<section>
+			<article>
+				<h2>Bienvenida</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, dolore, maxime at rem iste aspernatur libero quidem quos numquam error asperiores deleniti incidunt vitae. Enim, soluta veritatis tenetur architecto totam!</p>
+			</article>    <!-- hola que tal -->
+			<!-- chau -->
+		</section>
+	</div>
+
+	<script>
+		//alert("Bienvenidos a la Web");
+		var nombre=prompt("Ingrese su Nombre por favor");
+		alert("Buenos dias "+nombre);
+
+		var edad=prompt("Ingrese su edad por favor");
+		if( edad<12 ){
+			//alert("Eres un niño/a");
+			console.log("Eres un niño/a");
+		}else if( edad>=12 && edad<18 ){
+			// alert("Eres un adolescente");
+			console.log("Eres un adolescente");
+		}else{
+			//alert("Eres un adulto");
+			console.log("Eres un adulto");
+		} 
+	</script>
+</body>
+</html>

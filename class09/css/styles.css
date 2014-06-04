@@ -1,0 +1,82 @@
+/*aqui va el reset*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-size: 16px;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	-ms-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+h2
+{
+	font-size: 1.25em;
+}
+
+p, dt, button
+{
+	font-size: 0.88em;
+}
+
+dt
+{
+	font-weight: bold;
+	background-color: #ff0;
+	padding: 5px;
+}
+
+dd
+{
+	font-size: 0.75em;
+	padding: 5px;
+}
+
+.wrapper
+{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.content
+{
+	width: 620px;
+	float: left;
+}
+
+.post
+{
+	padding: 20px;
+	margin: 12px;
+	width: 280px;
+	float: left;
+	background-color: #ff0;
+	-webkit-transition: background-color .4s;
+	-moz-transition: background-color .4s;
+	-ms-transition: background-color .4s;
+	-o-transition: background-color .4s;
+	transition: background-color .4s;
+}
+
+.post:nth-child(odd)
+{
+	clear:left;
+}
+
+
+
+.sidebar
+{
+	width: 320px;
+	float: right;
+}
