@@ -1,0 +1,160 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.menu ul
+{
+	list-style: none;
+}
+
+.menu a
+{
+	background-color: #000;
+	color:#fff;
+	text-decoration: none;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	height: 39px;
+	width: 38px;
+	display: inline-block;
+	padding-right: 20px;
+	overflow: hidden;
+	/*-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;*/
+}
+
+.menu li:nth-child(2) a
+{
+	background-color: #2fbfbf;
+}
+
+.menu li:nth-child(3) a
+{
+	background-color: #256f6e;
+}
+
+.menu li:nth-child(4) a
+{
+	background-color: #f2c230;
+}
+
+.menu li:nth-child(5) a
+{
+	background-color: #e74c2e;
+}
+
+.menu li:nth-child(6) a
+{
+	background-color: #203880;
+}
+
+.menu li:nth-child(7) a
+{
+	background-color: #028ee6;
+}
+
+.menu li:nth-child(8) a
+{
+	background-color: #b31722;
+}
+
+
+/*.menu a:hover
+{
+	width: 200px;
+}*/
+
+.menu a:before
+{
+	content:"";
+	margin-right: 10px;
+	width: 38px;
+	height: 39px;
+	display: inline-block;
+	background: url(../img/sprite.png) no-repeat;
+	vertical-align: middle;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.menu li:nth-child(1) a:hover:before
+{
+	background-position: 0 -39px;
+}
+
+
+.menu li:nth-child(2) a:before
+{
+	background-position: -38px 0px;
+}
+
+.menu li:nth-child(2) a:hover:before
+{
+	background-position: -38px -39px;
+}
+
+.menu li:nth-child(3) a:before
+{
+	background-position: -76px 0px;
+}
+
+.menu li:nth-child(3) a:hover:before
+{
+	background-position: -76px -39px;
+}
+
+.menu li:nth-child(4) a:before
+{
+	background-position: -114px 0px;
+}
+
+.menu li:nth-child(4) a:hover:before
+{
+	background-position: -114px -39px;
+}
+
+.menu li:nth-child(5) a:before
+{
+	background-position: -152px 0;
+}
+
+.menu li:nth-child(5) a:hover:before
+{
+	background-position: -152px -39px;
+}
+
+.menu li:nth-child(6) a:before
+{
+	background-position: -190px 0;
+}
+
+.menu li:nth-child(6) a:hover:before
+{
+	background-position: -190px -39px;
+}
+
+.menu li:nth-child(7) a:before
+{
+	background-position: -228px 0;
+}
+
+.menu li:nth-child(7) a:hover:before
+{
+	background-position: -228px -39px;
+}
+
+.menu li:nth-child(8) a:before
+{
+	background-position: -266px 0;
+}
+
+.menu li:nth-child(8) a:hover:before
+{
+	background-position: -266px -39px;
+}
