@@ -1,0 +1,84 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrapper
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.menu
+{
+	text-align: center;
+	padding: 30px;
+}
+
+.menu ul
+{
+	list-style: none;
+}
+
+.menu>ul>li
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*.menu li:hover .submenu
+{
+	display: block;
+}
+*/
+.menu a
+{
+	display: block;
+	padding: 10px 20px;
+	background-color: #854D8C;
+	color:#fff;
+	text-decoration: none;
+	border-radius: 8px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.submenu
+{
+	display: none;
+	position: absolute;
+}
+
+.faqList dt
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	color:#6B6F5E;
+	border-bottom: dashed 1px rgba(193,196,185,.5);
+	padding: 5px;
+}
+
+.faqList dd
+{
+	padding: 5px;
+}
+
+.faqList dd
+{
+	font: .8em Arial,sans-serif;
+}
+
+.faqList dd:first-letter
+{
+	font-size: 30px;
+	font-weight: bold;
+	color:#D7D8D1;
+	text-shadow: 1px  1px 0 #000;
+}
