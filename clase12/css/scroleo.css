@@ -1,0 +1,67 @@
+/*aqui va el reset*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container
+{
+	width: 960px;
+	height: 500px;
+	margin: 30px auto;
+	background-color: #ccc;
+	overflow: hidden; 
+}
+
+.inner-container
+{
+	width:2880px;
+	height: inherit;
+	background-color: #666;
+	position:relative;
+}
+
+.area
+{
+	width: 960px;
+	float: left;
+	height: inherit;
+	padding: 30px;
+}
+
+.logo
+{
+	display: block;
+	float: right;
+	opacity: 0;
+}
+
+.entrar
+{
+	-webkit-animation: entrar 2s forwards;
+	-o-animation: entrar 2s forwards;
+	animation: entrar 2s forwards;
+}
+
+.salir
+{
+	-webkit-animation: salir 2s forwards;
+	-o-animation: salir 2s forwards;
+	animation: salir 2s forwards;
+}
+
+
+@-webkit-keyframes entrar {
+	from { opacity: 0; -webkit-transform:scale(0) rotate(360deg) translate(-500px, 500px); }
+	to { opacity: 1; -webkit-transform:scale(1); }
+}
+
+@-webkit-keyframes salir {
+	from { opacity: 1; -webkit-transform:scale(1); }
+	to { opacity: 0; -webkit-transform:scale(0) rotate(360deg) translate(-500px, 500px); }
+}

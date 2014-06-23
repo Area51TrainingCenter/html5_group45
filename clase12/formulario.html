@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<form id="myForm" method="POST" action="gracias.html">
+		<div>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre">
+		</div>
+		<div>
+			<label for="apellidos">Apellidos:</label>
+			<input type="text" id="apellidos">
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input type="text" id="email">
+		</div>
+		<div>
+			<label for="asunto">Asunto:</label>
+			<input type="text" id="asunto">
+		</div>
+		<div>
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje"></textarea>
+		</div>
+		<input type="submit" id="btn_enviar" value="Enviar">
+	</form>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+	window.jQuery || document.write("<script src='js/jquery-2.1.1.min.js'><\/script>");
+	</script>
+	<script src="js/validacion1.js"></script>
+</body>
+</html>
